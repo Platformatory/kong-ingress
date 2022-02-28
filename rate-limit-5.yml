@@ -1,0 +1,7 @@
+apiVersion: configuration.konghq.com/v1
+kind: KongPlugin
+metadata:
+  name: rate-limit-5-per-min
+config: 
+  minute: 5
+plugin: rate-limiting
